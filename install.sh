@@ -7,5 +7,6 @@ cp conf/ssh.conf ~/.ssh/config &
 
 # config the ssh
 mkdir -p ~/.ssh/sockets
+./src/git.sh
 ./src/ssh_key.sh
 ./src/unsw.sh
